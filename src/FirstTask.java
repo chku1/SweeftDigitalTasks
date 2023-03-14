@@ -18,7 +18,7 @@ public class FirstTask {
                 return nums[i+1];
         }
 
-        //if the unique integer is last in array
+        //if the unique integer is last in array.
         return nums[nums.length-1];
     }
 
