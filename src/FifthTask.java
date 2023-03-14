@@ -1,5 +1,8 @@
 public class FifthTask {
 
+    //to count variants of completing stairs,
+    //used fibonacci-like recursive function
+    //with small changes to match the task
     static int countVariants(int stairsCount){
         if(stairsCount==1)
             return 1;
