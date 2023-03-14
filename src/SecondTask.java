@@ -12,7 +12,7 @@ public class SecondTask {
             //use the coin of maximum value until possible
             //to get minimum number of coins
             while(amount-arr[i]>=0){
-                //increase number of coins and decrease the given amount
+                //increase number of coins and decrease the given amount.
                 ans++;
                 amount-=arr[i];
             }
